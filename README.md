@@ -5,15 +5,15 @@ Calculates EngradePro scores from raw data.
 * Python 3
 
 ## Usage
-Select all data from the top heading of the first table to the bottom of the last table and copy it into a text file.
+Select all data from the top heading of the first table to the bottom of the last table and copy it into a text file, preferably in the same directory as calculate.py.
 
 Selection example:
 
 <img src="screenshot.png" width="600"/>
 
-Example of data in ```example_data.txt```.
+Example data in ```example_data.txt```.
 
-Then run the .py file and follow the instructions.
+Then run calculate.py and follow the instructions.
 
 ``` bash
 python3 calculate.py
