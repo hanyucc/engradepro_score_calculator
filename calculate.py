@@ -51,6 +51,7 @@ def main():
 
     total_score = 0
     total_perc = sum(percs)
+    scores = [x * 100 for x in scores]
 
     for i in range(len(types)):
         total_score += percs[i] * scores[i] / total_perc
